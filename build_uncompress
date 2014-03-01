@@ -1,0 +1,4 @@
+#!/bin/bash
+gcc -c -O3 inflate.c
+gcc -c -O3 uncompress_image.c
+gcc inflate.o uncompress_image.o -o uncompress_image
